@@ -7,7 +7,7 @@ const skillSchema = new Schema({
   aquired: Boolean,
 })
 
-const Skill = mongoose.model('Skill', skillSchema)
+const Skill = mongoose.model('skill', skillSchema)
 
 export {
   Skill
