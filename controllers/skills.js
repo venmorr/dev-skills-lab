@@ -30,7 +30,7 @@ function create(req, res) {
 }
 
 function show(req, res) {
-  Todo.findById(req.params.skillId)
+  Skill.findById(req.params.skillId)
   .then(skill => {
     res.render('skills/show', {
       skill: skill
